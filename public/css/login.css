@@ -1,0 +1,222 @@
+@import 'style.css';
+
+#container.layout_login {
+    position: relative;
+    height: 100%;
+    min-width: 1370px;
+    min-height: 808px;
+    background: #e9eaed!important;
+}
+
+.header_login_wrap {
+    background: #fff;
+}
+
+.header_login {
+    position: static;
+    max-width: 1650px;
+    margin: 0 auto;
+    padding: 0 45px;
+    box-sizing: content-box;
+}
+
+.header_login .admin_wrap {
+    position: static;
+    height: 60px;
+    color: #777;
+    line-height: 60px;
+    font-size: 0;
+    vertical-align: middle;
+}
+
+.header_login .admin_wrap .logo_area {
+    position: relative;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    width: auto;
+    text-align: center;
+    margin-left: 0;
+    vertical-align: middle;
+    font-size: 0;
+    cursor: pointer;
+    background: none;
+}
+
+.content_login {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 123px 0 182px 0!important;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.content_login .login_wrap {
+    display: inline-block;
+    width: 530px!important;
+    height: 463px!important;
+    padding: 80px 0!important;
+    background: #fff;
+    border-color: #ccc;
+    border-radius: 0;
+    vertical-align: middle;
+    box-shadow: 0 0 31px -1px rgb(0 0 0 / 19%);
+}
+
+.content_login {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 123px 0 182px 0!important;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.content_login .login_wrap .login_detail {
+    width: 412px;
+    margin: 45px auto 0!important;
+}
+
+table {
+    width: 100%;
+}
+
+table, table td, table tr {
+    border: inherit;
+}
+
+.layout_login input[type=password], .layout_login input[type=text] {
+    height: 44px;
+    padding: 1px 7px 0 30px;
+    margin-bottom: 8px;
+    border-radius: 0;
+    line-height: 28px;
+    border: 1px solid #dfdfdf!important;
+}
+
+input[type=password], input[type=text] {
+    width: 100%;
+    height: 34px;
+    padding: 0 14px;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    color: #28292c;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 25px;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #2b2a2a;
+    font-size: 12px;
+    padding: 0 2px;
+    ime-mode: disabled;
+}
+
+input[type=password] {
+    width: 300px;
+    height: 25px;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #2b2a2a;
+    font-size: 12px;
+    padding: 0 2px;
+}
+
+.content_login .login_wrap .btn_wrap {
+    margin: 5px 0 0;
+    color: #494949;
+}
+
+.btn_wrap {
+    width: 100%;
+    margin: 15px 0;
+    text-align: center;
+    overflow: hidden;
+    vertical-align: middle;
+    position: relative;
+}
+
+.content_login .login_wrap .btn_wrap .remember_id_text {
+    float: left;
+    padding: 0;
+    color: #494949;
+    line-height: 16px;
+}
+
+input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+    background: url(../img/icon_checkbox_off.8f11e1b7.svg) no-repeat 0 0;
+}
+
+.layout_login .login_wrap .remember_id_text label {
+    margin-left: 7px;
+    font-size: 13px;
+    color: #222;
+    letter-spacing: -1px;
+    cursor: pointer;
+    font-weight: 400!important;
+}
+
+.layout_login .reset-password {
+    float: right;
+    line-height: 19px;
+}
+
+.layout_login .reset-password a {
+    display: inline-block;
+    color: #7a7a7a;
+    font-size: 13px;
+    vertical-align: top;
+    text-decoration: none;
+    letter-spacing: -1px;
+    padding-bottom: 0;
+    border-bottom: 1px solid #7a7a7a;
+}
+
+.login_wrap .btn_login {
+    float: none!important;
+    display: inline-block;
+    width: 412px!important;
+    height: 54px;
+    margin: 19px auto 10px auto!important;
+    background: #fd3930!important;
+    font-size: 18px;
+    line-height: 48px;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid #fd3930!important;
+}
+
+.layout_login #footer .footer_area {
+    position: relative;
+    max-width: 1560px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.layout_login #footer .footer_copyright {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    padding: 0;
+    color: #9d9d9d;
+}
