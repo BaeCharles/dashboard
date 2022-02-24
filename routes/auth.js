@@ -3,7 +3,7 @@ const router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('auth/login');
+    res.render('auth/login', { title: '로그인'});
 });
 
 module.exports = router;
