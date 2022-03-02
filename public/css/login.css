@@ -5,11 +5,7 @@
     height: 100%;
     min-width: 1370px;
     min-height: 808px;
-    background: #e9eaed!important;
-}
-
-.header_login_wrap {
-    background: #fff;
+    background: #e9eaed !important;
 }
 
 .header_login {
@@ -43,17 +39,6 @@
     background: none;
 }
 
-.content_login {
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 123px 0 182px 0!important;
-    text-align: center;
-    vertical-align: middle;
-}
-
 .content_login .login_wrap {
     display: inline-block;
     width: 530px!important;
@@ -72,15 +57,9 @@
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 123px 0 182px 0!important;
+    padding: 200px 0 182px 0!important;
     text-align: center;
     vertical-align: middle;
-}
-
-
-form {
-    display: block;
-    margin-top: 0em;
 }
 
 .content_login .login_wrap .login_detail {
@@ -114,27 +93,19 @@ input[type=password], input[type=text] {
     color: #28292c;
 }
 
-input[type=text] {
-    width: 300px;
-    height: 25px;
-    display: inline-block;
-    background: #fff;
-    border: 1px solid #ccc;
-    color: #2b2a2a;
-    font-size: 12px;
-    padding: 0 2px;
-    ime-mode: disabled;
+input::placeholder {
+    color: #ccc;
+    font-weight: 600;
 }
 
-input[type=password] {
-    width: 300px;
-    height: 25px;
-    display: inline-block;
-    background: #fff;
-    border: 1px solid #ccc;
-    color: #2b2a2a;
-    font-size: 12px;
-    padding: 0 2px;
+.login_logo span {
+    color: #555;
+    font-weight: 600;
+}
+
+.login_wrap button.btn_login:hover {
+    background: #fa2828 !important;
+
 }
 
 .content_login .login_wrap .btn_wrap {
@@ -162,16 +133,6 @@ input[type=checkbox] {
     width: 16px;
     height: 16px;
     margin-right: 2px;
-    background: url(../img/icon_checkbox_off.8f11e1b7.svg) no-repeat 0 0;
-}
-
-.layout_login .login_wrap .remember_id_text label {
-    margin-left: 7px;
-    font-size: 13px;
-    color: #222;
-    letter-spacing: -1px;
-    cursor: pointer;
-    font-weight: 400!important;
 }
 
 .layout_login .reset-password {

@@ -1,0 +1,37 @@
+/*input 은 숨겨주기*/
+input[type=checkbox] {
+    display:none;
+}
+
+/*input 바로 다음의 label*/
+input[type=checkbox] + label {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 13px;
+    color: #7a7a7a;
+    letter-spacing: -1px;
+    font-weight: 400!important;    
+}
+
+/*input 바로 다음의 label:before 에 체크하기 전 CSS 설정*/
+input[type=checkbox] + label:before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border: 1px solid #cbcbcb;
+    vertical-align: middle;/*체크 전과 체크 후 높이 차이 때문에 설정*/
+}
+
+/*checked된 input 바로 다음의 label:before 에 체크 후 CSS 설정*/  
+input[type=checkbox]:checked + label:before {
+    content: '\f00c';/*폰트어썸 유니코드*/
+    font-family: 'Font Awesome 5 free'; /*폰트어썸 아이콘 사용*/
+    font-weight: 900;/*폰트어썸 설정*/
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    font-size: 13px;
+    text-align: center;
+}

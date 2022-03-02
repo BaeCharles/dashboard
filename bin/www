@@ -3,6 +3,7 @@
 /**
  * Module dependencies.
  */
+require('module-alias/register');
 
 var app = require('../app');
 var debug = require('debug')('dashboard:server');
@@ -25,7 +26,13 @@ var server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 
-server.listen(port);
+server.listen(port, () => {
+    console.log(`
+  ################################################
+  🛡️  Server listening on port: 3000
+  ################################################ 
+  `)
+});
 server.on('error', onError);
 server.on('listening', onListening);
 

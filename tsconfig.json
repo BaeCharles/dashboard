@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"noImplicitAny": false,
+		"module": "es2020",
+		"target": "es6",
+		"allowJs": true,
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"baseUrl": ".",
+		"paths": {
+			"@common/*": ["./src/common/*"],
+		}
+	}
+}

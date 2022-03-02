@@ -1,0 +1,14 @@
+// vscode 설정용
+{
+	"compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+			"@common/*": ["./src/common/*"],
+			"@model": ["./model/*"],
+            "@controller": ["./controller/*"],
+            "@routes": ["./routes/*"],
+            "@public": ["./public/*"],
+            "@config": ["./config/*"]
+		}
+	}
+}
